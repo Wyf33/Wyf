@@ -30,7 +30,7 @@ int main()
 		}
     	}
 	}
-	cout<<"Êä³öËØÊı£º"<<endl;
+	cout<<"ÃŠÃ¤Â³Ã¶Ã‹Ã˜ÃŠÃ½Â£Âº"<<endl;
 	for(int d=0;d<k;d++)
 	 {
 		cout<<a[d]<<" ";
