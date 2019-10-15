@@ -7,19 +7,19 @@ int main()
 {
 	int array[MAX];
 	int n;
-	cout<<"ÊäÈë¸öÊýN£º";
+	cout<<"è¾“å…¥ä¸ªæ•°Nï¼š";
 	cin>>n;
 	for(int i=0;i<n;i++)
 	{
 		cin>>array[i];
 	}
-	//ÅÐ¶Ï×î´óÖµ
+	//åˆ¤æ–­æœ€å¤§å€¼
 	int sum=0;
 	int max=array[0];
 	for(int j=0;j<n;j++)
 	{
 		sum=sum+array[j];
-		if(sum<array[j])//Èç¹û¼ÓÉÏµ±Ç°ÔªËØÖ®ºóµÄºÍ±Èµ±Ç°ÔªËØ»¹Ð¡£¬ÔòÉáÆúÖ®Ç°ÔªËØ
+		if(sum<array[j])//å¦‚æžœåŠ ä¸Šå½“å‰å…ƒç´ ä¹‹åŽçš„å’Œæ¯”å½“å‰å…ƒç´ è¿˜å°ï¼Œåˆ™èˆå¼ƒä¹‹å‰å…ƒç´ 
 		{
 			sum=array[j];
 		}
@@ -29,7 +29,7 @@ int main()
 		}
 	}
 	
-	cout<<"Êä³ömax:"<<max<<endl;
+	cout<<"è¾“å‡ºmax:"<<max<<endl;
 	
 	return 0;
 }
